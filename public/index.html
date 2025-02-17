@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Video Chat</title>
+  <script type="module" src="index.js"></script>
+  <style>
+    body {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    ul {
+      grid-column: 1 / span 2; /* 全幅で表示 */
+      list-style-type: none;
+      padding: 0;
+    }
+
+    button {
+      grid-column: 1 / span 2; /* 全幅で配置 */
+      justify-self: center; /* 中央揃え */
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <b><li>ランダムビデオ通話サイト-vexpal-</li></b>
+    <li>・joinで通話開始です。"待機中"と表示されます。通話終了は、ブラウザのタブを閉じてください。</li>
+    <li>・joinをクリックしても何も起こらない場合や, 接続トラブル等の際は、ブラウザの更新をお試し下さい。</li>
+    <li>・感想, 不具合報告は, 公式X(@vexpal_official)のDMまでご連絡頂けると幸いです。</li>
+    <li>・本サイトのサービスの利用によって生じた損害については、製作者は一切の責任を負いません。</li>
+    <p></p>
+    <b><li>Random Video Chat Website - vexpal</li></b>
+    <li>・Click "Join" to start the call. To end the call, please close the browser tab.</li>
+    <li>・If you experience connection issues, please try refreshing your browser.</li>
+    <li>・We would appreciate your feedback or bug reports via DM to our official X() account.</li>
+    <li>・The creator assumes no responsibility for any damages incurred from using this service.</li>
+
+
+
+
+  </ul>
+  <button onClick="onClickBtn()">Join</button>
+</body>
+</html>
